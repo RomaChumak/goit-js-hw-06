@@ -5,7 +5,7 @@ function handlerSub(evt) {
     const { email, password } = evt.currentTarget.elements;
     if (!email.value || !password.value) {
         const message = 'insert all feld';
-        alter(message)
+        alert(message)
     } else {
         const data = {
             email: email.value,
